@@ -1,0 +1,35 @@
+video {
+            max-width: 100%;
+            height: auto;
+          }
+
+          iframe,
+          embed,
+          object {
+            max-width: 100%;
+          }
+
+         
+
+.auto-video {
+            padding: 2%;
+            /* background: #d1eed1; */
+            margin-bottom: 2em;
+          }
+
+ .unsupported {
+            background: #fddfde;
+          }
+.full-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.full-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
